@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio_Registro">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:text='Bienvenido a la aplicación de EsSalud para la reserva de citas médicas. Si es la primea vez en la aplicación ngresa a "Registrarse".  '
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="42dp"
+        android:background="#2D78B3"
+        android:text="Registrarse"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="330dp"
+        android:layout_height="33dp"
+        android:text='Si ya ingresaste anteriormente y creaste una cuenta, ingresa a "Iniciar Sesión"'
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="122dp"
+        android:layout_height="42dp"
+        android:background="#2D78B3"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#2196F3"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
