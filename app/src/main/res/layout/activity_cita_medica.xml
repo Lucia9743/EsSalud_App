@@ -4,6 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#006DB1"
     tools:context=".Cita_medica">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="345dp"
+        app:srcCompat="@mipmap/logo2"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="     Ingresa tu DNI"
+        android:textColor="#989595"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="     Ingresa tu contraseña"
+        android:textColor="#989595"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="162dp"
+        android:layout_height="38dp"
+        android:background="@drawable/boton_ovalo_trans"
+        android:text="Ingresar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="196dp"
+        android:layout_height="218dp"
+        app:srcCompat="@mipmap/doctorlogo"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="353dp"
+        android:layout_height="187dp"
+        app:srcCompat="@mipmap/burbuja"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="150dp"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:text="Ingrese su DNI y Contraseña para poder entrar a la aplicación de EsSalud. Aquí podrá reservar sus citas médicas, ver su historia medica y todo de una forma fácil."
+        android:textAllCaps="false"
+        android:textColor="#0B0A0A"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="486dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
