@@ -8,4 +8,153 @@
     tools:context=".Cita_medica">
 
 
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="417dp"
+        android:layout_height="613dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="295dp"
+            android:layout_height="288dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="186dp"
+            android:layout_marginEnd="-64dp"
+            android:layout_marginRight="-64dp"
+            android:layout_marginBottom="-17dp"
+            app:srcCompat="@mipmap/enfermera" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="401dp"
+            android:layout_height="84dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="480dp"
+            android:background="@drawable/boton_ovalo_gris"
+            android:text="Medicina General"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="401dp"
+            android:layout_height="84dp"
+            android:layout_alignTop="@+id/button6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="93dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginBottom="387dp"
+            android:background="@drawable/boton_ovalo_gris"
+            android:text="Especialidad "
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="143dp"
+            android:layout_marginRight="143dp"
+            android:layout_marginBottom="129dp"
+            app:srcCompat="@mipmap/burbuja3" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_alignLeft="@+id/imageView13"
+            android:layout_alignTop="@+id/imageView13"
+            android:layout_alignEnd="@+id/imageView13"
+            android:layout_alignRight="@+id/imageView13"
+            android:layout_alignBottom="@+id/imageView13"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="44dp"
+            app:srcCompat="@mipmap/texto2" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView14"
+            android:layout_alignLeft="@+id/imageView14"
+            android:layout_alignTop="@+id/imageView14"
+            android:layout_alignEnd="@+id/imageView14"
+            android:layout_alignRight="@+id/imageView14"
+            android:layout_alignBottom="@+id/imageView14"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@mipmap/text2" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="104dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@mipmap/cita1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cita Médica"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
