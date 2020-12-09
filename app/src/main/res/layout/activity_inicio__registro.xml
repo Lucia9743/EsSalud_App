@@ -13,31 +13,38 @@
         android:text='Bienvenido a la aplicación de EsSalud para la reserva de citas médicas. Si es la primea vez en la aplicación ngresa a "Registrarse".  '
         android:textSize="12sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="123dp"
         android:layout_height="42dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/boton_ovalo"
         android:text="Registrarse"
         android:textAllCaps="true"
         android:textColor="#FAFAF7F6"
         android:textColorLink="#2196F3"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="344dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="330dp"
         android:layout_height="33dp"
+        android:layout_marginTop="32dp"
         android:text='Si ya ingresaste anteriormente y creaste una cuenta, ingresa a "Iniciar Sesión"'
         android:textSize="12sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="431dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button2"
@@ -48,15 +55,21 @@
         android:textColor="#FFFFFF"
         android:textColorLink="#2196F3"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.042" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="347dp"
         android:layout_height="256dp"
-        app:srcCompat="@mipmap/essaludpng"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="61dp" />
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/essaludpng" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
