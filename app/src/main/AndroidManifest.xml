@@ -9,20 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Resumen_cita"></activity>
-        <activity android:name=".Medicina_general" />
-        <activity android:name=".Cita_medica" />
-        <activity android:name=".Inicio_Registro" />
-        <activity android:name=".Inicio_Sesion" />
-        <activity android:name=".Registro_Usuario" />
-        <activity android:name=".Especialidades" />
-        <activity android:name=".Splash">
+        <activity
+            android:name=".SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".Inicio_Registro">
+        </activity>
+        <activity android:name=".Registro_Usuario">
+        </activity>
+        <activity android:name=".Inicio_Sesion">
+        </activity>
+
     </application>
 
 </manifest>
+
+<!--        </activity>-->
+<!--        <activity android:name=".Resumen_cita" />-->
+<!--        <activity android:name=".Medicina_general" />-->
+<!--        <activity android:name=".Cita_medica" />-->
+<!--        <activity android:name=".Inicio_Registro" />-->
+<!--        <activity android:name=".Inicio_Sesion" />-->
+<!--        <activity android:name=".Registro_Usuario" />-->
+<!--        <activity android:name=".Especialidades" />-->

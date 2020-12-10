@@ -19,9 +19,9 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="135dp"
-        android:layout_height="34dp"
+        android:id="@+id/btnRegis"
+        android:layout_width="123dp"
+        android:layout_height="42dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/boton_ovalo"
         android:text="Registrarse"
@@ -44,12 +44,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegis" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="135dp"
-        android:layout_height="34dp"
+        android:id="@+id/btnIniSesi"
+        android:layout_width="122dp"
+        android:layout_height="42dp"
         android:background="@drawable/boton_ovalo"
         android:text="Iniciar Sesión"
         android:textAllCaps="false"
@@ -71,6 +71,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/essaludpng" />
+        app:srcCompat="@drawable/essalud2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
