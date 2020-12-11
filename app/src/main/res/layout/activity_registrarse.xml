@@ -8,17 +8,17 @@
     tools:context=".Registro_Usuario">
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editTextContraRegis"
         android:layout_width="245dp"
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:hint="@string/contra"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:textColor="#989595"
         android:textSize="12sp"
         android:padding="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintBottom_toTopOf="@+id/editTextContraRe"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,12 +26,12 @@
         app:layout_constraintVertical_bias="0.98" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editTextContraRe"
         android:layout_width="245dp"
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:hint="@string/recontra"
         android:textColor="#989595"
         android:textSize="12sp"
@@ -56,17 +56,18 @@
         app:srcCompat="@mipmap/logo2" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editTextDNIvalid"
         android:layout_width="245dp"
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
+        android:maxLength="8"
         android:hint="@string/dni"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textColor="#989595"
         android:textSize="12sp"
         android:padding="12dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btnValidDniRegis"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +89,7 @@
         app:layout_constraintVertical_bias="0.752" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnValidDniRegis"
         android:layout_width="129dp"
         android:layout_height="31dp"
         android:background="@drawable/boton_ovalo_trans"
@@ -104,7 +105,7 @@
         app:layout_constraintVertical_bias="0.52" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnRegisNuevoUsu"
         android:layout_width="129dp"
         android:layout_height="31dp"
         android:background="@drawable/boton_ovalo_trans"
