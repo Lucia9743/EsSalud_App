@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EsSalud_App</string>
+    <string name="contra">  Cree una contraseña</string>
+    <string name="dni">   Ingrese su DNI</string>
+    <string name="recontra">   Reingrese su contraseña</string>
 </resources>

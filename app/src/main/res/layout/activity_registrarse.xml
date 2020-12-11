@@ -13,8 +13,8 @@
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
+        android:hint="@string/contra"
         android:inputType="textPersonName"
-        android:text="     Cree  una contraseña"
         android:textColor="#989595"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/editText5"
@@ -31,7 +31,7 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="     Reingrese la contraseña"
+        android:hint="@string/recontra"
         android:textColor="#989595"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
         android:layout_height="339dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -59,8 +59,8 @@
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
+        android:hint="@string/dni"
         android:inputType="textPersonName"
-        android:text="     Ingrese su DNI"
         android:textColor="#989595"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
@@ -68,7 +68,7 @@
         app:layout_constraintHorizontal_bias="0.59"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.566" />
+        app:layout_constraintVertical_bias="0.344" />
 
     <TextView
         android:id="@+id/textView3"
@@ -82,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintVertical_bias="0.752" />
 
     <Button
         android:id="@+id/button4"
@@ -97,7 +97,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
 
     <Button
         android:id="@+id/button5"
