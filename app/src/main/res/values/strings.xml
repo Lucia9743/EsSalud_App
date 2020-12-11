@@ -3,4 +3,6 @@
     <string name="contra">  Cree una contraseña</string>
     <string name="dni">   Ingrese su DNI</string>
     <string name="recontra">   Reingrese su contraseña</string>
+    <string name="ingreDNI">   Ingrese su DNI</string>
+    <string name="ingreseContra">   Ingrese su contraseña</string>
 </resources>

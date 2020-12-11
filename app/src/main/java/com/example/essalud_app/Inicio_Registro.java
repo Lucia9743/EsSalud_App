@@ -13,6 +13,8 @@ public class Inicio_Registro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio__registro);
+        getSupportActionBar().hide();
+
         Button btnRegistrarse = (Button) findViewById(R.id.btnRegis);
         Button btnIniSesion = (Button)findViewById(R.id.btnIniSesi);
         btnRegistrarse.setOnClickListener(new View.OnClickListener() {

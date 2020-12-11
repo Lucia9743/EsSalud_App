@@ -10,5 +10,6 @@ public class Registro_Usuario extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrarse);
+        getSupportActionBar().hide();
     }
 }

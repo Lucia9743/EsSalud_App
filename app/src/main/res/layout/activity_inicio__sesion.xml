@@ -26,9 +26,10 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="     Ingresa tu DNI"
         android:textColor="#989595"
         android:textSize="12sp"
+        android:padding="12dp"
+        android:hint="@string/ingreDNI"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,9 +43,10 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="     Ingresa tu contraseña"
         android:textColor="#989595"
         android:textSize="12sp"
+        android:padding="12dp"
+        android:hint="@string/ingreseContra"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +54,7 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnSesionIni"
         android:layout_width="162dp"
         android:layout_height="38dp"
         android:background="@drawable/boton_ovalo_trans"
