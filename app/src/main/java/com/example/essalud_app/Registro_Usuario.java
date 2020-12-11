@@ -69,6 +69,7 @@ public class Registro_Usuario extends AppCompatActivity {
             StrictMode.setThreadPolicy(policy);
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
             conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.0.2;databaseName=essaludDBs;user=test;password=test");
+            //192.168.0.2
             //Toast.makeText(getApplicationContext(), "conexion satisfactoria",Toast.LENGTH_SHORT).show();
 
 
