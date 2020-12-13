@@ -20,12 +20,13 @@
         app:srcCompat="@mipmap/logo2" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edtDnifill"
         android:layout_width="245dp"
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
+        android:maxLength="8"
         android:textColor="#989595"
         android:textSize="12sp"
         android:padding="12dp"
@@ -37,12 +38,12 @@
         app:layout_constraintVertical_bias="0.397" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtPassFill"
         android:layout_width="245dp"
         android:layout_height="40dp"
         android:background="#FFFFFF"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:textColor="#989595"
         android:textSize="12sp"
         android:padding="12dp"

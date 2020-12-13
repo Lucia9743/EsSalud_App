@@ -34,6 +34,7 @@ public class Registro_Usuario extends AppCompatActivity {
         btnRegistroUsu = (Button) findViewById(R.id.btnRegisNuevoUsu);
         btnvalidDni = (Button) findViewById(R.id.btnValidDniRegis);
 
+
         btnRegistroUsu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +69,7 @@ public class Registro_Usuario extends AppCompatActivity {
             StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
-            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.0.2;databaseName=essaludDBs;user=test;password=test");
+            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.0.9;databaseName=essaludDBs;user=test;password=test");
             //192.168.0.2
             //Toast.makeText(getApplicationContext(), "conexion satisfactoria",Toast.LENGTH_SHORT).show();
 
@@ -99,8 +100,13 @@ public class Registro_Usuario extends AppCompatActivity {
     public void validarUsuario(){
         try {
             Statement st = conexionBD().createStatement();
-            ResultSet rs = st.executeQuery("select dni_paciente from paciente where dni_paciente = "+edtDNIVali.getText().toString());
-
+            ResultSet rs = st.executeQuery( "select dni_paciente from paciente where dni_paciente = " + edtDNIVali.getText().toString());
+            if (rs.next()){
+                Toast.makeText(getApplicationContext(), "DNI EXISTE",Toast.LENGTH_LONG).show();
+            }
+            else{
+                Toast.makeText(getApplicationContext(),"adios",Toast.LENGTH_LONG).show();
+            }
 
         }catch (SQLException e){
             Toast.makeText(getApplicationContext(), e.getMessage(),Toast.LENGTH_LONG).show();
