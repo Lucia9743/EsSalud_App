@@ -108,7 +108,7 @@
         android:id="@+id/btnRegisNuevoUsu"
         android:layout_width="129dp"
         android:layout_height="31dp"
-        android:background="@drawable/boton_ovalo_trans"
+        android:background="@drawable/boton_gris_oscuro"
         android:text="Registrar"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
