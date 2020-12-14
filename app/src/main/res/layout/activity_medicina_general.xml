@@ -38,4 +38,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A6A2A2"
+        android:text="Button"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="236dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
