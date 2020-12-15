@@ -27,12 +27,6 @@ public class Menu extends AppCompatActivity {
         dniRegis =  getIntent().getExtras().getString("keydniregis"); //Registro DNI
 
 
-        if (dniLogin.isEmpty()){
-            txtDniView.setText(dniRegis);
-        }
-        else{
-            txtDniView.setText(dniLogin);
-        }
 
         btnCita = (ImageButton)findViewById(R.id.btnCitaMed);
         btnCita.setOnClickListener(new View.OnClickListener() {
