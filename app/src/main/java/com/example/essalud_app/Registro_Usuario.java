@@ -104,6 +104,7 @@ public class Registro_Usuario extends AppCompatActivity {
             ResultSet rs = st.executeQuery( "select DNI_Usuario from usuariosCreados where DNI_Usuario = " + edtDNIVali.getText().toString());
             if (rs.next()){
                 Toast.makeText(getApplicationContext(), "DNI EXISTE",Toast.LENGTH_LONG).show();
+                edtDNIVali.setEnabled(false);
                 btnRegistroUsu.setEnabled(true);
                 btnRegistroUsu.setBackgroundColor((R.drawable.boton_ovalo_trans));
             }

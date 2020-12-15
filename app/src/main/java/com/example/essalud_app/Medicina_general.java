@@ -10,5 +10,6 @@ public class Medicina_general extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medicina_general);
+        getSupportActionBar().hide();
     }
 }

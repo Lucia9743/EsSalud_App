@@ -9,10 +9,10 @@
 
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnEspec"
         android:layout_width="401dp"
         android:layout_height="84dp"
-        android:layout_alignTop="@+id/button6"
+        android:layout_alignTop="@+id/btnMedGene"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
@@ -29,10 +29,10 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/btnMedGene" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnMedGene"
         android:layout_width="401dp"
         android:layout_height="84dp"
         android:layout_alignParentStart="true"
@@ -58,7 +58,7 @@
         android:id="@+id/imageView13"
         android:layout_width="226dp"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button6"
+        android:layout_alignTop="@+id/btnMedGene"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"

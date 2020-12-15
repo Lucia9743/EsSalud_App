@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.096" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/btnCitaMed"
         android:layout_width="120dp"
         android:layout_height="119dp"
         android:layout_marginStart="60dp"
@@ -106,7 +106,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/btnCitaMed"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@mipmap/cita" />
@@ -126,7 +126,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/btnCitaMed"
         app:srcCompat="@mipmap/faq" />
 
     <ImageButton
@@ -200,7 +200,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageButton7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintTop_toBottomOf="@+id/btnCitaMed"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
