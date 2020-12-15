@@ -81,6 +81,7 @@ public class Inicio_Sesion extends AppCompatActivity {
            if (rs.next()){
                Toast.makeText(getApplicationContext(),"Bienvenido!",Toast.LENGTH_LONG).show();
                Intent intent = new Intent(Inicio_Sesion.this, Menu.class);
+               intent.putExtra("keydni",edtDNIusu.getText().toString());
                startActivity(intent);
            }
            else{

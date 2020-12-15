@@ -90,6 +90,7 @@ public class Registro_Usuario extends AppCompatActivity {
             pst.setString(2,edtContra.getText().toString());
             pst.executeUpdate();
             Intent intent = new Intent(Registro_Usuario.this,Menu.class);
+            intent.putExtra("keydniregis",edtDNIVali.getText().toString());
             startActivity(intent);
             Toast.makeText(getApplicationContext(), "REGISTRO SATISFACTORIO",Toast.LENGTH_SHORT).show();
 
