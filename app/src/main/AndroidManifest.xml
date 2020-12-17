@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Neurologia"></activity>
         <activity android:name=".Menu" />
-        <activity android:name=".Especialidades">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,7 @@
         <activity android:name=".Inicio_Sesion" />
         <activity android:name=".Cita_medica" />
         <activity android:name=".Medicina_general" />
+        <activity android:name=".Especialidades" />
     </application>
 
 </manifest>
