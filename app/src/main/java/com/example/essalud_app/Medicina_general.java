@@ -48,7 +48,7 @@ public class Medicina_general extends AppCompatActivity {
         dialog.show();
 
         TextView txt = view.findViewById(R.id.textalert);
-        txt.setText("¿Estas segur que desea reservar una cita?");
+        txt.setText("¿Estas seguro que desea reservar una cita?");
 
         Button btnReintentar = view.findViewById(R.id.buttonb);
         btnReintentar.setOnClickListener(new View.OnClickListener() {
