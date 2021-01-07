@@ -11,10 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pediatria"></activity>
+        <activity android:name=".cardiologia"></activity>-->
+        <activity android:name=".Pediatria" />
         <activity android:name=".Neurologia" />
         <activity android:name=".Menu" />
-        <activity android:name=".Medicina_general">
+        <activity android:name=".Resumen_cita">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,11 +24,9 @@
         </activity>
         <activity android:name=".Inicio_Registro" />
         <activity android:name=".Registro_Usuario" />
-        <activity android:name=".Inicio_Sesion" />
-        <activity android:name=".Cita_medica" />
-<!--        <activity android:name=".Medicina_general" />-->
+        <activity android:name=".Inicio_Sesion" /> <!-- <activity android:name=".Cita_medica" /> -->
+        <activity android:name=".Medicina_general" />
         <activity android:name=".Especialidades" />
-        <activity android:name=".Resumen_cita" />
 
     </application>
 

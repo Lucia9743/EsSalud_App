@@ -41,7 +41,7 @@ public class Medicina_general extends AppCompatActivity {
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Alerta();
+                Alerta1();
 
             }
         });
@@ -79,6 +79,27 @@ public class Medicina_general extends AppCompatActivity {
         });
 
 
+    }
+
+    private void Alerta1() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(Medicina_general.this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view = inflater.inflate(R.layout.alerta, null);
+        builder.setView(view);
+        final AlertDialog dialog = builder.create();
+        dialog.show();
+
+        TextView txt = view.findViewById(R.id.textalert);
+        txt.setText("¿Estas seguro que desea reservar una cita?");
+
+        Button btnReintentar = view.findViewById(R.id.buttonb);
+        btnReintentar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Medicina_general.this, "Jajaja", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
     }
 }
 
