@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.LayoutInflater;
@@ -67,6 +68,17 @@ public class Medicina_general extends AppCompatActivity {
                 dialog.dismiss();
             }
         });
+
+        Button btnAceptar = view.findViewById(R.id.buttona);
+        btnAceptar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Medicina_general.this, Resumen_cita.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
 
