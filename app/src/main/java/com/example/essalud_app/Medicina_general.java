@@ -5,13 +5,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public class Medicina_general extends AppCompatActivity {
+    EditText txtNombre, txtApellido, txtHora;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +28,11 @@ public class Medicina_general extends AppCompatActivity {
         setContentView(R.layout.activity_medicina_general);
         getSupportActionBar().hide();
 
+
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Alerta();
+                Alerta();
 
             }
         });
@@ -36,10 +46,9 @@ public class Medicina_general extends AppCompatActivity {
         });
 
 
-
     }
 
-    private void Alerta(){
+    private void Alerta() {
         AlertDialog.Builder builder = new AlertDialog.Builder(Medicina_general.this);
         LayoutInflater inflater = getLayoutInflater();
         View view = inflater.inflate(R.layout.alerta, null);
@@ -54,9 +63,13 @@ public class Medicina_general extends AppCompatActivity {
         btnReintentar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Medicina_general.this, "Conectando", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Medicina_general.this, "Cancelado", Toast.LENGTH_SHORT).show();
                 dialog.dismiss();
             }
         });
     }
 }
+
+
+
+
