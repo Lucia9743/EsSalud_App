@@ -10,5 +10,6 @@ public class Resumen_cita extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resumen_cita);
+        getSupportActionBar().hide();
     }
 }
