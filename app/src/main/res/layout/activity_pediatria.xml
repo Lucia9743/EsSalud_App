@@ -7,13 +7,78 @@
     android:background="@mipmap/fondo"
     tools:context=".Pediatria">
 
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="103dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginRight="276dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@mipmap/doc1" />
+
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:text="Jimenez"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:text="12:00 - 13:00"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <Button
+        android:id="@+id/buttonp1s"
+        android:layout_width="116dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="153dp"
+        android:background="@drawable/boton_ovalo"
+        android:text="Seleccionar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/buttonps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="259dp"
+        android:layout_marginRight="259dp"
+        android:text="Fabio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/txthoraEntradaSalida" />
+
+    <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="37dp"
         android:layout_marginLeft="37dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="180dp"
         android:layout_marginRight="180dp"
         android:text="Pediatría"
@@ -21,139 +86,95 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:text="Especialidad:"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/imageView10"
         android:layout_width="103dp"
         android:layout_height="108dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="268dp"
-        android:layout_marginRight="268dp"
-        android:layout_marginBottom="432dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="280dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         app:srcCompat="@mipmap/doc3" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/txtNombreMedic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="480dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:text="Ernesto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/txtApellidoMedic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginEnd="248dp"
-        android:layout_marginRight="248dp"
-        android:layout_marginBottom="450dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView14" />
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Valderrama"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombreMedic" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/txthoraEntradaSalida"
         android:layout_width="wrap_content"
-        android:layout_height="19dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginEnd="248dp"
-        android:layout_marginRight="248dp"
-        android:layout_marginBottom="511dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:text="08:00 - 12:00"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView14" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellidoMedic" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonps"
         android:layout_width="116dp"
         android:layout_height="30dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="296dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
         android:background="@drawable/boton_ovalo"
         android:text="Seleccionar"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView12" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="103dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="268dp"
-        android:layout_marginRight="268dp"
-        android:layout_marginBottom="252dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@mipmap/doc2" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginEnd="248dp"
-        android:layout_marginRight="248dp"
-        android:layout_marginBottom="277dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView12" />
-
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="248dp"
-        android:layout_marginRight="248dp"
-        android:layout_marginBottom="340dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="404dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="308dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="116dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="170dp"
-        android:background="@drawable/boton_ovalo"
-        android:text="Seleccionar"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
