@@ -62,7 +62,7 @@ public class Inicio_Sesion extends AppCompatActivity {
             StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
             Class.forName("net.sourceforge.jtds.jdbc.Driver").newInstance();
-            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.0.9;databaseName=essaludDBs;user=test;password=test");
+            conexion = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.0.3;databaseName=essaludDBs;user=test;password=test");
             //192.168.0.2
             //Toast.makeText(getApplicationContext(), "conexion satisfactoria",Toast.LENGTH_SHORT).show();
 
