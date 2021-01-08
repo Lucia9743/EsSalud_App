@@ -23,8 +23,6 @@ public class Menu extends AppCompatActivity {
 
         txtDniView = (TextView)findViewById(R.id.txtdni);
 
-        dniLogin = getIntent().getExtras().getString("keydni"); //Login DNI
-        dniRegis =  getIntent().getExtras().getString("keydniregis"); //Registro DNI
 
 
 

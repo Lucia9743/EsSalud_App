@@ -27,6 +27,13 @@ public class Neurologia extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.buttonn1s).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Alerta4();
+
+            }
+        });
 
     }
 
@@ -54,7 +61,7 @@ public class Neurologia extends AppCompatActivity {
         btnAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Neurologia.this, Resumen_cita.class);
+                Intent intent = new Intent(Neurologia.this, Resumen_cita_neurologia.class);
                 startActivity(intent);
             }
         });

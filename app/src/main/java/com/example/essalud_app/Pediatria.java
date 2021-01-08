@@ -61,7 +61,7 @@ public class Pediatria extends AppCompatActivity {
         btnAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Pediatria.this, Resumen_cita.class);
+                Intent intent = new Intent(Pediatria.this, Resumen_cita_pediatria.class);
                 startActivity(intent);
             }
         });
@@ -90,7 +90,7 @@ public class Pediatria extends AppCompatActivity {
         btnAceptar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Pediatria.this, Resumen_cita.class);
+                Intent intent = new Intent(Pediatria.this, Resumen_cita_pediatria.class);
                 startActivity(intent);
             }
         });

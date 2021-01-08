@@ -28,6 +28,7 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/idNeuro"
                 android:layout_width="322dp"
                 android:layout_height="39dp"
                 android:background="@drawable/boton_ovalo_gris"
@@ -38,6 +39,7 @@
                 android:layout_height="17dp" />
 
             <Button
+                android:id="@+id/idPedi"
                 android:layout_width="322dp"
                 android:layout_height="39dp"
                 android:background="@drawable/boton_ovalo_gris"
