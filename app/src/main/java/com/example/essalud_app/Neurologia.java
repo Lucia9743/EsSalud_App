@@ -30,6 +30,25 @@ public class Neurologia extends AppCompatActivity {
 
     }
 
+    private void Alerta4() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(Neurologia.this);
+        LayoutInflater inflater = getLayoutInflater();
+        View view = inflater.inflate(R.layout.alerta, null);
+        builder.setView(view);
+        final AlertDialog dialog = builder.create();
+        dialog.show();
+
+        TextView txt = view.findViewById(R.id.textalert);
+        txt.setText("¿Estas seguro que desea reservar una cita?");
+
+        Button btnReintentar = view.findViewById(R.id.buttonb);
+        btnReintentar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Neurologia.this, "Cancelado", Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
 
         Button btnAceptar = view.findViewById(R.id.buttona);
         btnAceptar.setOnClickListener(new View.OnClickListener() {
