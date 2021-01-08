@@ -16,7 +16,7 @@
         android:layout_marginRight="276dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@mipmap/doc2" />
+        app:srcCompat="@mipmap/doc3" />
 
     <TextView
         android:id="@+id/textView22"
